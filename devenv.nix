@@ -31,6 +31,7 @@
   # https://devenv.sh/languages/
   # languages.nix.enable = true;
   languages.c.enable = true;
+  # languages.cplusplus.enable = true; # TODO: (Core Dump) Segmentation Fault if uncommented.
 
   languages.python = {
     enable = true;
